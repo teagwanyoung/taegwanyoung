@@ -13,7 +13,12 @@ export const Contact = () => {
   });
 
   return (
-    <section id="contact" className="py-32 bg-gradient-to-b from-black to-background">
+    <section 
+      id="contact"
+      role="region"
+      aria-label="연락처"
+      className="py-32 bg-gradient-to-b from-black to-background"
+    >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           ref={ref}

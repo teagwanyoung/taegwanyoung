@@ -27,7 +27,12 @@ export const Projects = () => {
   };
 
   return (
-    <section id="projects" className="py-20 bg-background">
+    <section 
+      id="projects"
+      role="region"
+      aria-label="포트폴리오 작품"
+      className="py-20 bg-background"
+    >
       {/* 비디오 모달 */}
       {selectedVideo && (
         <div 

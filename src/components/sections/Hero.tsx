@@ -48,6 +48,8 @@ export const Hero = () => {
     <motion.section 
       ref={containerRef}
       id="hero"
+      role="banner"
+      aria-label="메인 소개"
       className="relative h-screen w-full flex items-center justify-center overflow-hidden"
       style={{ opacity }}
     >
