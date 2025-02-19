@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #000000;
+  --secondary: #ffffff;
+  --accent: #ff3b30;
+}
+
+body {
+  background-color: var(--primary);
+  color: var(--secondary);
+  font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.smooth-scroll {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+.glass-effect {
+  @apply backdrop-blur-md bg-white/10;
+} 
