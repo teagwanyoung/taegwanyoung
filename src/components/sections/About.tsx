@@ -52,7 +52,12 @@ export const About = () => {
   ];
 
   return (
-    <section id="about" className="min-h-screen py-24 bg-gradient-to-b from-background to-background-secondary relative overflow-hidden">
+    <section 
+      id="about" 
+      role="region"
+      aria-label="프로필 정보"
+      className="min-h-screen py-24 bg-gradient-to-b from-background to-background-secondary relative overflow-hidden"
+    >
       <div className="absolute inset-0 opacity-40">
         <Canvas>
           <Suspense fallback={null}>
