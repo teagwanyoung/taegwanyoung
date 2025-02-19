@@ -52,7 +52,7 @@ export const About = () => {
   ];
 
   return (
-    <section className="min-h-screen py-24 bg-gradient-to-b from-background to-background-secondary relative overflow-hidden">
+    <section id="about" className="min-h-screen py-24 bg-gradient-to-b from-background to-background-secondary relative overflow-hidden">
       <div className="absolute inset-0 opacity-40">
         <Canvas>
           <Suspense fallback={null}>
