@@ -24,14 +24,22 @@ export const metadata: Metadata = {
     siteName: '태관영 포트폴리오',
     images: [
       {
-        url: '/images/og-image.jpg', // Open Graph 이미지 추가 필요
-        width: 1200,
-        height: 630,
-        alt: '태관영 포트폴리오',
-      },
+        url: '/images/gallery/4.webp',
+        width: 800,
+        height: 1200,
+        alt: '배우 태관영',
+        type: 'image/webp',
+      }
     ],
     locale: 'ko_KR',
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: '태관영 | Actor Portfolio',
+    description: '배우 태관영의 포트폴리오 웹사이트입니다.',
+    images: ['/images/gallery/4.webp'],
+    creator: '@taegwanyoung',
   },
   robots: {
     index: true,
