@@ -40,8 +40,8 @@ export default function Home() {
         transition={{ duration: 1 }}
       >
         <Hero />
-        <Projects />
         <About />
+        <Projects />
         <Gallery />
         <Contact />
       </motion.div>
