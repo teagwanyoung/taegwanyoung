@@ -1,0 +1,53 @@
+# https://www.taegwanyoung.com robots.txt
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://www.taegwanyoung.com/sitemap.xml
+
+# 크롤링 제한
+Crawl-delay: 1
+
+# 미디어 파일 접근 허용
+Allow: /images/
+Allow: /videos/
+
+# 소셜 미디어 이미지 허용
+Allow: /images/og-image.jpg
+
+# 기본 에셋 허용
+Allow: /*.js
+Allow: /*.css
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.gif
+Allow: /*.svg
+Allow: /*.ico
+
+# 특정 검색엔진 설정
+User-agent: Googlebot
+Allow: /
+Allow: /*.js
+Allow: /*.css
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.gif
+Allow: /*.svg
+Allow: /*.ico
+
+User-agent: Yeti
+Allow: /
+Allow: /*.js
+Allow: /*.css
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.gif
+Allow: /*.svg
+Allow: /*.ico
+
+# 캐시 및 임시 파일 제한
+Disallow: /tmp/
+Disallow: /temp/
+Disallow: /*.json$
+Disallow: /*?* 
