@@ -6,9 +6,9 @@ import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: '태관영 | Actor Portfolio',
-  description: '배우 태관영의 포트폴리오 웹사이트입니다. 영화, 드라마, 광고 등 다양한 작품 활동을 소개합니다.',
-  keywords: ["태관영", "서울예술대학교", "해병대", "군필", "연참", "독립영화", "광고", "소속사", "배우", "연기자", "광고", "영화", "드라마", "단역", "조연", "주연", "이미지", "단역", "수염", "장발"],
+  title: '태관영',
+  description: '배우 태관영의 프로필 입니다. 영화, 드라마, 광고 등 다양한 작품 활동을 소개합니다.',
+  keywords: ["태관영", "서울예술대학교", "해병대 배우", "해병대 출신 배우", "연참", "독립영화 배우", "광고배우", "해병대 연기자", "단역배우", "조연배우", "주연배우", "이미지 좋은 배우", "수염 배우", "장발 배우"],
   authors: [{ name: '태관영' }],
   creator: '태관영',
   publisher: '태관영',
@@ -19,9 +19,9 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: '태관영 | Actor Portfolio',
-    description: '배우 태관영의 포트폴리오 웹사이트입니다.',
+    description: '배우 태관영의 프로필 입니다. 영화, 드라마, 광고 등 다양한 작품 활동을 소개합니다.',
     url: 'https://taegwanyoung.com',
-    siteName: '태관영 포트폴리오',
+    siteName: '태관영',
     images: [
       {
         url: '/images/gallery/4.webp',
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: '태관영 | Actor Portfolio',
-    description: '배우 태관영의 포트폴리오 웹사이트입니다.',
+    description: '배우 태관영의 프로필',
     images: ['/images/gallery/4.webp'],
     creator: '@taegwanyoung',
   },
